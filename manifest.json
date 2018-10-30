@@ -1,0 +1,14 @@
+{
+    "name": "Farid Babayev",
+    "description": "My dashboard",
+    "version": "1.0",
+    "author": "Farid Babayev",
+    "chrome_url_overrides" : {
+       "newtab": "index.html"
+     },
+     "icons": { "16": "/img/logo_transparent.png",
+        "48": "/img/logo_transparent.png",
+       "128": "/img/logo_transparent.png" },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'"
+  }
